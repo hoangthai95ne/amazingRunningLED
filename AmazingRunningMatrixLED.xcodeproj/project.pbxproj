@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3441701C205B1F00CB1FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB34416F1C205B1F00CB1FD6 /* main.m */; };
+		AB3441731C205B1F00CB1FD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3441721C205B1F00CB1FD6 /* AppDelegate.m */; };
+		AB3441761C205B1F00CB1FD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3441751C205B1F00CB1FD6 /* ViewController.m */; };
+		AB3441791C205B1F00CB1FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3441771C205B1F00CB1FD6 /* Main.storyboard */; };
+		AB34417B1C205B1F00CB1FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB34417A1C205B1F00CB1FD6 /* Assets.xcassets */; };
+		AB34417E1C205B1F00CB1FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB34417C1C205B1F00CB1FD6 /* LaunchScreen.storyboard */; };
+		AB3441891C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3441881C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.m */; };
+		AB3441941C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3441931C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3441851C205B1F00CB1FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3441631C205B1F00CB1FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB34416A1C205B1F00CB1FD6;
+			remoteInfo = AmazingRunningMatrixLED;
+		};
+		AB3441901C205B1F00CB1FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3441631C205B1F00CB1FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB34416A1C205B1F00CB1FD6;
+			remoteInfo = AmazingRunningMatrixLED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB34416B1C205B1F00CB1FD6 /* AmazingRunningMatrixLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingRunningMatrixLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB34416F1C205B1F00CB1FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB3441711C205B1F00CB1FD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB3441721C205B1F00CB1FD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB3441741C205B1F00CB1FD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB3441751C205B1F00CB1FD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB3441781C205B1F00CB1FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB34417A1C205B1F00CB1FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB34417D1C205B1F00CB1FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB34417F1C205B1F00CB1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3441841C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingRunningMatrixLEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3441881C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingRunningMatrixLEDTests.m; sourceTree = "<group>"; };
+		AB34418A1C205B1F00CB1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB34418F1C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingRunningMatrixLEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3441931C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingRunningMatrixLEDUITests.m; sourceTree = "<group>"; };
+		AB3441951C205B1F00CB1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3441681C205B1F00CB1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3441811C205B1F00CB1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB34418C1C205B1F00CB1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3441621C205B1F00CB1FD6 = {
+			isa = PBXGroup;
+			children = (
+				AB34416D1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */,
+				AB3441871C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests */,
+				AB3441921C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests */,
+				AB34416C1C205B1F00CB1FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB34416C1C205B1F00CB1FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB34416B1C205B1F00CB1FD6 /* AmazingRunningMatrixLED.app */,
+				AB3441841C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.xctest */,
+				AB34418F1C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB34416D1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */ = {
+			isa = PBXGroup;
+			children = (
+				AB3441711C205B1F00CB1FD6 /* AppDelegate.h */,
+				AB3441721C205B1F00CB1FD6 /* AppDelegate.m */,
+				AB3441741C205B1F00CB1FD6 /* ViewController.h */,
+				AB3441751C205B1F00CB1FD6 /* ViewController.m */,
+				AB3441771C205B1F00CB1FD6 /* Main.storyboard */,
+				AB34417A1C205B1F00CB1FD6 /* Assets.xcassets */,
+				AB34417C1C205B1F00CB1FD6 /* LaunchScreen.storyboard */,
+				AB34417F1C205B1F00CB1FD6 /* Info.plist */,
+				AB34416E1C205B1F00CB1FD6 /* Supporting Files */,
+			);
+			path = AmazingRunningMatrixLED;
+			sourceTree = "<group>";
+		};
+		AB34416E1C205B1F00CB1FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB34416F1C205B1F00CB1FD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3441871C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3441881C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.m */,
+				AB34418A1C205B1F00CB1FD6 /* Info.plist */,
+			);
+			path = AmazingRunningMatrixLEDTests;
+			sourceTree = "<group>";
+		};
+		AB3441921C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3441931C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.m */,
+				AB3441951C205B1F00CB1FD6 /* Info.plist */,
+			);
+			path = AmazingRunningMatrixLEDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB34416A1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3441981C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLED" */;
+			buildPhases = (
+				AB3441671C205B1F00CB1FD6 /* Sources */,
+				AB3441681C205B1F00CB1FD6 /* Frameworks */,
+				AB3441691C205B1F00CB1FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingRunningMatrixLED;
+			productName = AmazingRunningMatrixLED;
+			productReference = AB34416B1C205B1F00CB1FD6 /* AmazingRunningMatrixLED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3441831C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB34419B1C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLEDTests" */;
+			buildPhases = (
+				AB3441801C205B1F00CB1FD6 /* Sources */,
+				AB3441811C205B1F00CB1FD6 /* Frameworks */,
+				AB3441821C205B1F00CB1FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3441861C205B1F00CB1FD6 /* PBXTargetDependency */,
+			);
+			name = AmazingRunningMatrixLEDTests;
+			productName = AmazingRunningMatrixLEDTests;
+			productReference = AB3441841C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB34418E1C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB34419E1C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLEDUITests" */;
+			buildPhases = (
+				AB34418B1C205B1F00CB1FD6 /* Sources */,
+				AB34418C1C205B1F00CB1FD6 /* Frameworks */,
+				AB34418D1C205B1F00CB1FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3441911C205B1F00CB1FD6 /* PBXTargetDependency */,
+			);
+			name = AmazingRunningMatrixLEDUITests;
+			productName = AmazingRunningMatrixLEDUITests;
+			productReference = AB34418F1C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3441631C205B1F00CB1FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HOANGTHAI;
+				TargetAttributes = {
+					AB34416A1C205B1F00CB1FD6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AB3441831C205B1F00CB1FD6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB34416A1C205B1F00CB1FD6;
+					};
+					AB34418E1C205B1F00CB1FD6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AB34416A1C205B1F00CB1FD6;
+					};
+				};
+			};
+			buildConfigurationList = AB3441661C205B1F00CB1FD6 /* Build configuration list for PBXProject "AmazingRunningMatrixLED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3441621C205B1F00CB1FD6;
+			productRefGroup = AB34416C1C205B1F00CB1FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB34416A1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */,
+				AB3441831C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests */,
+				AB34418E1C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3441691C205B1F00CB1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB34417E1C205B1F00CB1FD6 /* LaunchScreen.storyboard in Resources */,
+				AB34417B1C205B1F00CB1FD6 /* Assets.xcassets in Resources */,
+				AB3441791C205B1F00CB1FD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3441821C205B1F00CB1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB34418D1C205B1F00CB1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3441671C205B1F00CB1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3441761C205B1F00CB1FD6 /* ViewController.m in Sources */,
+				AB3441731C205B1F00CB1FD6 /* AppDelegate.m in Sources */,
+				AB3441701C205B1F00CB1FD6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3441801C205B1F00CB1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3441891C205B1F00CB1FD6 /* AmazingRunningMatrixLEDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB34418B1C205B1F00CB1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3441941C205B1F00CB1FD6 /* AmazingRunningMatrixLEDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3441861C205B1F00CB1FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB34416A1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */;
+			targetProxy = AB3441851C205B1F00CB1FD6 /* PBXContainerItemProxy */;
+		};
+		AB3441911C205B1F00CB1FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB34416A1C205B1F00CB1FD6 /* AmazingRunningMatrixLED */;
+			targetProxy = AB3441901C205B1F00CB1FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3441771C205B1F00CB1FD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3441781C205B1F00CB1FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB34417C1C205B1F00CB1FD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB34417D1C205B1F00CB1FD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3441961C205B1F00CB1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB3441971C205B1F00CB1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3441991C205B1F00CB1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazingRunningMatrixLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB34419A1C205B1F00CB1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazingRunningMatrixLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB34419C1C205B1F00CB1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmazingRunningMatrixLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingRunningMatrixLED.app/AmazingRunningMatrixLED";
+			};
+			name = Debug;
+		};
+		AB34419D1C205B1F00CB1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmazingRunningMatrixLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingRunningMatrixLED.app/AmazingRunningMatrixLED";
+			};
+			name = Release;
+		};
+		AB34419F1C205B1F00CB1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmazingRunningMatrixLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmazingRunningMatrixLED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB3441A01C205B1F00CB1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmazingRunningMatrixLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.AmazingRunningMatrixLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmazingRunningMatrixLED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3441661C205B1F00CB1FD6 /* Build configuration list for PBXProject "AmazingRunningMatrixLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3441961C205B1F00CB1FD6 /* Debug */,
+				AB3441971C205B1F00CB1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3441981C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3441991C205B1F00CB1FD6 /* Debug */,
+				AB34419A1C205B1F00CB1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB34419B1C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB34419C1C205B1F00CB1FD6 /* Debug */,
+				AB34419D1C205B1F00CB1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB34419E1C205B1F00CB1FD6 /* Build configuration list for PBXNativeTarget "AmazingRunningMatrixLEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB34419F1C205B1F00CB1FD6 /* Debug */,
+				AB3441A01C205B1F00CB1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3441631C205B1F00CB1FD6 /* Project object */;
+}
